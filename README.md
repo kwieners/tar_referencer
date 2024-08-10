@@ -61,3 +61,6 @@ df_var2 = pd.read_parquet("file_index.var2.preffs")
 df_entire_dataset = pd.concat([df_coords, df_var1, df_var2]).sort_index()
 df_entire_dataset.to_parquet("entire_dataset.preffs")
 ```
+
+TEST
+
